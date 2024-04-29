@@ -1,0 +1,59 @@
+.centered-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column; /* Устанавливаем элементы в вертикальном направлении */
+  align-items: center; /* Выравниваем элементы по горизонтали */
+}
+
+body {
+  font-family: 'Mulish', sans-serif;
+}
+
+.element {
+  font-family: 'Mulish', sans-serif;
+}
+
+#counter {
+  margin-bottom: 10px; /* Отступ снизу для счетчика */
+}
+
+/* Дополнительный стиль для кнопок, если он вам нужен */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: 'Mulish', sans-serif;
+  /* Остальные стили для кнопки */
+}
+
+
+#limon {
+  margin-bottom: 20px
+}
+
+.costupgrade {
+  position: relative;
+  display: inline-block; /* или использовать "inline" для встраивания в текс */
+  border-bottom: 1px dotted black; /* Опционально, добавляет точечное подчеркивание */
+}
+
+#tooltip_buy_upgrade {
+  border: 1px solid #333; /* Граница всплывающего окна */
+  background-color: #f9f9f9; /* Цвет фона всплывающего окна */
+  border-radius: 5px; /* Скругление углов */
+  padding: 10px; /* Отступы внутри всплывающего окна */
+  position: absolute; /* Абсолютное позиционирование для размещения на странице */
+  z-index: 1000; /* Z-индекс для размещения поверх других элементов */
+}
+
+#tooltip_buy_gardener_id {
+  border: 1px solid #333; /* Граница всплывающего окна */
+  background-color: #f9f9f9; /* Цвет фона всплывающего окна */
+  border-radius: 5px; /* Скругление углов */
+  padding: 10px; /* Отступы внутри всплывающего окна */
+  position: absolute; /* Абсолютное позиционирование для размещения на странице */
+  z-index: 1000; /* Z-индекс для размещения поверх других элементов */
+}
+

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'main/css/style.css' %}">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+        <title>Document</title>
+    </head>
+    
+<body>
+    
+    <div id="costupgrade">Цена1</div>
+    <div id="cost_buy_gardener">Цена2</div>
+    <div id="lvl_main">lvl</div>
+
+    <div class="centered-content">
+        <div id='limon'>🍋</div>
+            <div id="counter">0</div> <!-- Элемент счетчика расположен над кнопкой -->
+        <button onclick="incrementCounter()">Собрать</button> <!-- Главная кнопка "Click me" -->
+    </div>
+    
+    <button id="buy_upgrade" onclick='buy_upgrade1()'>Улучишить сбор</button>
+        <div id="tooltip_buy_upgrade" style="display:none;"></div>
+
+    <button id="buy_gardener_id" onclick='buy_gardener()'>Купить садовника</button>
+        <div id="tooltip_buy_gardener_id" style="display:none;"></div>
+    <script src="{% static 'main/js/my_script.js' %}"></script>
+</body>
+</html>
